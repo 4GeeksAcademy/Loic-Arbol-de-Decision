@@ -39,3 +39,6 @@ if st.button("Predict"):
     prediction = str(model.predict(scaled_data)[0])
     pred_class = class_dict[prediction]
     st.write("Prediction:", pred_class)
+
+
+# link de Render: https://loic-arbol-de-decision.onrender.com/
